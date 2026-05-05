@@ -104,7 +104,7 @@ After running `01_cv_experiment.ipynb`, the following files are created in `resu
 
 ## Experiment Design
 
-- **Dataset:** INDUCE-seq (Dobbs et al. 2022) — 9,877 DSB sites filtered to top 15 contigs → 7,863 observations, 34 features, 15 classes
+- **Dataset:** The dataset used in this study (induce_seq.xlsx) has been uploaded to this repository by the authors.
 - **Decomposition methods:** Standard PCA, Kernel PCA (RBF), Sparse PCA, Truncated SVD, Factor Analysis — all reducing to 16 components
 - **Classifiers:** Decision Tree, Random Forest, Extra Trees
 - **Evaluation:** 10×10-fold stratified cross-validation (10 independent seeds via MD5 hashing)
@@ -131,4 +131,4 @@ If you use this code or data, please cite:
 
 ## Data Availability
 
-The original INDUCE-seq dataset is publicly available as part of Dobbs et al. (2022), *Nature Communications* 13, 3989. The version used in this study (`induce_seq.xlsx`) is included in the `data/` directory of this repository.
+The dataset used in this study (induce_seq.xlsx) has been uploaded to this repository by the authors.
